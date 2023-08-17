@@ -44,7 +44,6 @@ body {
   background-position: left, right;
 }
 .shape3 {
-  /* rgba verince yiyor ama opacity verince neden olmuyor?*/
   background-color: rgba(237, 123, 123, 0.5);
 }
 .square {
