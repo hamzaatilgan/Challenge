@@ -1,0 +1,89 @@
+body {
+  margin: auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100vw;
+  height: 100vh;
+}
+.region {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shape1 {
+  background-color: rgba(235, 231, 108, 0.5);
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(235, 231, 108);
+  border-radius: 50%;
+}
+.shape2 {
+  background-color: rgba(240, 184, 110, 0.5);
+}
+.trigon {
+  width: 200px;
+  height: 173.1px;
+  background-image: linear-gradient(
+      to bottom right,
+      transparent 50%,
+      rgb(240, 184, 110) 0
+    ),
+    linear-gradient(to top right, rgb(240, 184, 110) 50%, transparent 0);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+.shape3 {
+  /* rgba verince yiyor ama opacity verince neden olmuyor?*/
+  background-color: rgba(237, 123, 123, 0.5);
+}
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(237, 123, 123);
+}
+.shape4 {
+  background-color: rgba(131, 96, 150, 0.5);
+}
+.rectangle {
+  width: 400px;
+  height: 200px;
+  background-color: #836096;
+}
+.plus {
+  /*sadece son div de merkezde duruyor neden?*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -4px;
+  transform: translate(-50%, -50%);
+}
+.line {
+  position: absolute;
+  background-color: black;
+}
+.dikey-line {
+  width: 10px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  /*transform: rotate(90deg); -- işe yaramadı*/
+  transform: translateY(-50%);
+}
+.yatay-line {
+  width: 400px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
