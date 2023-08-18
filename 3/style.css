@@ -39,10 +39,10 @@ nav .dropdown ul {
   width: 200px;
   /* height: 123px; */
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 10px;
   display: none;
   position: absolute;
-  background-color: #6c69ff;
+  background-color: rgb(108, 105, 255);
   list-style: none;
   padding: 20px;
   text-align: center;
@@ -71,7 +71,18 @@ nav .dropdown ul li {
 nav li:last-child {
   margin-right: 0;
 }
-
+.trigon{
+  background-image: linear-gradient( to bottom right, transparent 50%, rgb(108, 105, 255) 0 ), linear-gradient(to top right, rgb(108, 105, 255) 50%, transparent 0);
+    width: 16.7px;
+    height: 10px;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left,right;
+    position: absolute;
+    top: -10px;
+    left: 108.2px;
+    border: none;
+}
 /* nav .dropdown ul li a:not(:last-child) {
   margin-bottom: 10px;
 } */
