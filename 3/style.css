@@ -1,12 +1,14 @@
 body {
   font-family: poppins;
   font-weight: bolder;
-  margin: 0 auto;
+  margin: auto;
+  max-width: 1200px;
 }
 header {
   justify-content: space-between;
   display: flex;
-  margin: 50px 360px;
+  margin: 50px 0;
+  align-items: center;
 }
 /* h1 {
   margin-right: 532px;
@@ -71,6 +73,7 @@ nav .dropdown ul li {
 nav li:last-child {
   margin-right: 0;
 }
+
 .trigon{
   background-image: linear-gradient( to bottom right, transparent 50%, rgb(108, 105, 255) 0 ), linear-gradient(to top right, rgb(108, 105, 255) 50%, transparent 0);
     width: 16.7px;
