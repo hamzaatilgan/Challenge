@@ -70,7 +70,9 @@ nav .dropdown ul li {
   padding: 0;
 }
 .fas {
+  position: absolute;
   margin-left: 10px;
+  margin-top: 11px;
 }
 nav li:last-child {
   margin-right: 0;
