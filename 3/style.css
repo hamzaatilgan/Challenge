@@ -1,6 +1,6 @@
 body {
   font-family: poppins;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   margin: auto;
   max-width: 1200px;
 }
@@ -61,30 +61,42 @@ nav .dropdown ul li a {
   font-weight: normal;
   text-decoration: none;
 }
-nav .dropdown > a::after {
-  content: "\25BE"; /* Unicode ok sembolü */
+/* nav .dropdown > a::after {
+  content: "\f078"; Unicode ok sembolü
   margin-left: 5px;
-}
+} */
 nav .dropdown ul li {
   margin: 0;
   padding: 0;
 }
-
+.fas {
+  margin-left: 10px;
+}
 nav li:last-child {
   margin-right: 0;
 }
-
-.trigon{
-  background-image: linear-gradient( to bottom right, transparent 50%, rgb(108, 105, 255) 0 ), linear-gradient(to top right, rgb(108, 105, 255) 50%, transparent 0);
-    width: 16.7px;
-    height: 10px;
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: left,right;
-    position: absolute;
-    top: -10px;
-    left: 108.2px;
-    border: none;
+/* nav .dropdown ul li a:not(:last-child) {
+  margin-bottom: 10px;
+}
+nav .dropdown ul li a:last-child {
+  margin-bottom: 0;
+} */
+.trigon {
+  background-image: linear-gradient(
+      to bottom right,
+      transparent 50%,
+      rgb(108, 105, 255) 0
+    ),
+    linear-gradient(to top right, rgb(108, 105, 255) 50%, transparent 0);
+  width: 16.7px;
+  height: 10px;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+  position: absolute;
+  top: -10px;
+  left: 108.2px;
+  border: none;
 }
 /* nav .dropdown ul li a:not(:last-child) {
   margin-bottom: 10px;
