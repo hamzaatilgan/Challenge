@@ -1,0 +1,51 @@
+body,
+button {
+  font-family: poppins;
+}
+header {
+  margin: 50px 0 0 0;
+  height: 105px;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+img {
+  width: 24.4px;
+  height: 30px;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-size: 15px;
+  margin-right: 50px;
+}
+ul li:last-child {
+  margin-right: 0;
+}
+ul a {
+  text-decoration: none;
+}
+button {
+  width: 175px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.left {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+}
