@@ -12,12 +12,15 @@ p {
   color: white;
 }
 .container {
-  display: flex;
-  border-radius: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* border-radius: 10px; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
   gap: 30px;
   max-width: 1200px;
+  display: grid;
+  grid-template-columns: 380px 380px 380px;
+  grid-template-rows: 380px 380px 380px;
 }
 .actor {
   font-size: 21px;
@@ -124,6 +127,7 @@ div .box5 {
   background-image: url(./Image\ 4@3x.jpg);
   background-position: center;
   background-size: cover;
+  grid-column: 3;
 }
 div .box5 div {
   align-items: flex-start;
@@ -142,7 +146,7 @@ div .box6 {
   background-image: url(./Image\ 5@3x.jpg);
   background-position: center;
   background-size: cover;
-  margin-top: -410px;
+  /* margin-top: -410px; */
 }
 div .box6 div {
   align-items: flex-start;
@@ -161,7 +165,7 @@ div .box7 {
   background-image: url(./Image\ 8@3x.jpg);
   background-position: center;
   background-size: cover;
-  margin-top: -410px;
+  /* margin-top: -410px; */
 }
 div .box7 div {
   align-items: flex-start;
@@ -180,6 +184,8 @@ div .box8 {
   background-image: url(./Image\ 9.jpg);
   background-position: center;
   background-size: cover;
+  grid-column: 2;
+  grid-row: 4;
 }
 div .box8 div {
   align-items: flex-start;
@@ -198,8 +204,10 @@ div .box9 {
   background-image: url(./Image\ 10@3x.jpg);
   background-position: center;
   background-size: cover;
-  margin-left: 410px;
-  margin-top: -410px;
+  /* margin-left: 410px; */
+  /* margin-top: -410px; */
+  grid-row: 4;
+  grid-column: 3;
 }
 div .box9 div {
   align-items: flex-start;
