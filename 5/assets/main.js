@@ -11,8 +11,15 @@ console.log(slides);
 axios.get(`${apiURL}`).then(
   (response) => {
     const respdata = response.data;
-
-    console.log(respdata[2].imgUrl);
+    respdata.map((item) => {
+      const img = document.createElement("img");
+      img.src = item.imgUrl;
+      slides.appendChild(img);
+      const slidesimg = document.querySelector("img");
+      /*slidesimg.setAttribute("class","closedslider");*/
+      /*slidesimg.forEach(slide => slide.style.display = 'none');*/
+    });
+    // console.log(respdata[2].imgUrl);
   },
   (error) => {
     console.log("Error : ", error);
