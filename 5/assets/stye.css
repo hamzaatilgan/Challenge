@@ -32,7 +32,7 @@ li {
 ul li:last-child {
   margin-right: 0;
 }
-ul a {
+ul li a {
   text-decoration: none;
 }
 button {
@@ -46,12 +46,12 @@ button {
 .left {
   width: 50px;
   height: 50px;
-  /* background-color: brown; */
+  background-color: brown;
   border-radius: 50px;
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(255, 255, 255, 0.3); */
 }
 .right {
   width: 50px;
@@ -60,5 +60,26 @@ button {
   border-radius: 50px;
   align-items: center;
   display: flex;
+  justify-content: center;
+}
+.buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 180px;
+}
+.incircle {
+  width: 10px;
+  height: 10px;
+  background-color: brown;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.incircle:first-child {
+  margin-left: 0;
+}
+.circle {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
